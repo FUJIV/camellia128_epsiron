@@ -1,0 +1,27 @@
+# Vivado xsim build artifacts
+xsim.dir/
+.Xil/
+work/
+*.wdb
+*.jou
+*.log
+*.pb
+webtalk*.jou
+xelab.pb
+xvlog.pb
+.cxl.*
+# scratch sim outputs
+sim/*.log
+sim/*.txt
+
+# Vivado synthesis (OOC size evaluation) build/project artifacts -- not
+# tracked; re-generate with `make -C syn` / syn/ooc_synth.tcl.
+syn/run/
+.cache/
+.hbs/
+.gen/
+*.dcp
+*.rpt
+vivado*.jou
+vivado*.log
+vivado_pid*.str
